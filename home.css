@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image:url('LOGO.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navEl{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    align-items: center;
+    left: 0;
+    right: 0;
+
+
+ 
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 5rem;
+    list-style: none;
+    font: size 16px;
+   
+
+}
+li a{
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+li a:hover{
+    color: #1e10e080;
+}
+.navEl img{
+    width: 100px;
+    background-color: blueviolet;
+}
+main{
+    padding: 12rem;
+    display: flex;
+    background-image: -moz-linear-gradient(img_girl);
+    width: 50%;
+}
